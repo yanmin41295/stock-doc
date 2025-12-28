@@ -1,0 +1,9 @@
+// you can change colors here
+// 增加内容区域宽度，默认值通常是740px，这里增加到更大值
+$content-width: 1200px;
+
+// 可选：调整PC端断点，让宽屏设备保持更大内容宽度
+$pc: 1400px;
+
+// 可选：调整laptop断点
+$laptop: 1200px;
