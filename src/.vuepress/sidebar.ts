@@ -2,13 +2,6 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
-    "portfolio",
-    {
-      text: "双栏布局",
-      icon: "columns",
-      link: "two-column-layout.html",
-    },
     {
       text: "股票学习总结与复盘",
       icon: "chart-line",
