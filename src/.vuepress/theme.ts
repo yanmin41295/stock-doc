@@ -4,18 +4,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-    hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+    hostname: "https://yanmin41295.github.io/stock-doc",
 
     author: {
-        name: "Mr.Hope",
-        url: "https://mister-hope.com",
+        name: "yanmin41295",
+        url: "https://github.com/yanmin41295",
     },
 
-    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
+    repo: "yanmin41295/stock-doc",
 
     docsDir: "src",
+    docsBranch: "main", // 文档存放的分支名
+    editLink: true, // 启用编辑链接
 
     // 导航栏
     navbar,
@@ -119,14 +119,6 @@ export default hopeTheme({
 
     // 在这里配置主题提供的插件
     plugins: {
-        // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-        comment: {
-            provider: "Giscus",
-            repo: "vuepress-theme-hope/giscus-discussions",
-            repoId: "R_kgDOG_Pt2A",
-            category: "Announcements",
-            categoryId: "DIC_kwDOG_Pt2M4COD69",
-        },
 
         components: {
             components: [
