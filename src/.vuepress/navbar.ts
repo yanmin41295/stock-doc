@@ -4,6 +4,7 @@ export default navbar([
   "/",
   "/portfolio",
   "/demo/",
+  "/stock/",
   {
     text: "指南",
     icon: "lightbulb",
@@ -21,6 +22,7 @@ export default navbar([
         prefix: "foo/",
         children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
       },
+
     ],
   },
   {

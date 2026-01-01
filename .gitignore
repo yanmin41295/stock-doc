@@ -4,4 +4,4 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 .idea
-pnpm-lock.yaml
+bun.lock

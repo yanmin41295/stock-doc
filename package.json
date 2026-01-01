@@ -8,12 +8,18 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "pnpm dlx vp-update"
+    "docs:update-package": "pnpx vp-update",
+    "preview": "pnpx http-server src/.vuepress/dist"
   },
   "devDependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "element-plus": "^2.13.0",
     "sass-embedded": "^1.97.1",
     "vue": "^3.5.26",
+    "vuedraggable": "^4.1.0",
+    "@vueuse/core": "14.1.0",
+    "@vueuse/shared": "14.1.0",
     "vuepress": "2.0.0-rc.26",
     "vuepress-theme-hope": "2.0.0-rc.101"
   },

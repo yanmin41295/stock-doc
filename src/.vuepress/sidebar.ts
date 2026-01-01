@@ -5,6 +5,27 @@ export default sidebar({
     "",
     "portfolio",
     {
+      text: "双栏布局",
+      icon: "columns",
+      link: "two-column-layout.html",
+    },
+    {
+      text: "股票学习总结与复盘",
+      icon: "chart-line",
+      prefix: "stock/",
+      link: "stock/",
+      children: [
+        "",
+        "集合竞价",
+        "notes",
+        "reviews",
+        "strategies",
+        "risk-management",
+        "insights",
+        "龙头战法",
+      ],
+    },
+    {
       text: "案例",
       icon: "laptop-code",
       prefix: "demo/",
